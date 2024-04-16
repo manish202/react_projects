@@ -12,6 +12,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<TodoApp />} />
+        <Route path="/react_projects" element={<TodoApp />} />
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/github_users" element={<GithubUsers />} />
         <Route path="/shopping_cart" element={<ShoppingCart />} />
